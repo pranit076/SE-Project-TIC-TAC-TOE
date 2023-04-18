@@ -19,6 +19,7 @@ body{
     align-content: center;
     justify-items: center;
     grid-template-columns: repeat(3, auto);
+    background-color: aqua;
 }
 
 .cell {
@@ -127,7 +128,7 @@ background-color: black;
     
     justify-content: center;
     align-items: center;
-    color: white;
+    color: purple;
     font-size: 5rem;
     flex-direction: column;
 }
@@ -141,7 +142,7 @@ background-color: black;
 }
 
 .winning-message button:hover {
-   background-color: black;
+   background-color: red;
    color: white;
    border-color: white;
 }
